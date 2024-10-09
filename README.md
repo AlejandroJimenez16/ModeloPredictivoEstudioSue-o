@@ -35,6 +35,7 @@ Para ejecutar este programa, asegúrate de tener instalado Python 3.x. Luego, pu
 1. **Ejecuta el código:** Simplemente ejecuta el archivo Python que contiene el código.
 2. **Entrenamiento:** El modelo se entrenará durante 1000 épocas. Durante este proceso, podrás ver cómo se reduce la magnitud de pérdida.
 3. **Predicción:** Una vez que el modelo ha sido entrenado, puedes hacer una predicción ingresando el número de horas estudiadas y horas dormidas. En el código proporcionado, se realiza una predicción para 5 horas de estudio y 3 horas de sueño:
+   
    ```python
    nota, energia = modelo.predict([np.array([5, 3])])
    print("Nota:", nota)
