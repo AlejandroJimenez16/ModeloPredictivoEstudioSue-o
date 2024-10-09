@@ -48,4 +48,4 @@ print("Nota:", nota)
 print("Energia:", energia)
 print("==================================================")
 
-modelo.save("modeloPrediccionSuenio.keras")
+#modelo.save("modeloPrediccionSuenio.keras")
