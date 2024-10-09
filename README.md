@@ -72,4 +72,9 @@ Si deseas guardar el modelo entrenado para uso futuro, puedes descomentar la lí
 modelo.save("modeloPrediccionSuenio.keras")
 ```
 
+## Consideraciones
+
+Los datos generados por la API son aproximados y pueden no reflejar con precisión la realidad. Para obtener resultados más precisos y confiables, se necesitaría un conjunto de datos más amplio y representativo como entrada. Esto permitirá mejorar la calidad y exactitud de las predicciones.
+
+
 
